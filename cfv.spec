@@ -2,7 +2,7 @@ Summary:	Test and create .sfv, .csv and md5sum files
 Summary(pl):	Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
 Name:		cfv
 Version:	1.17
-Release:	1
+Release:	2
 License:	GPL
 Vendor:		Matt Mueller <donut@azstarnet.com>
 Group:		Applications/Archiving
