@@ -7,6 +7,7 @@ License:	GPL
 Vendor:		Matt Mueller <donut@azstarnet.com>
 Group:		Applications/Archiving
 Source0:	http://dl.sourceforge.net/cfv/%{name}-%{version}.tar.gz
+# Source0-md5:	9f2cc65d1fed30a14c1a1f4636c824f4
 URL:		http://cfv.sourceforge.net/
 Requires:	python
 BuildArch:	noarch
