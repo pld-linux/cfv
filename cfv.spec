@@ -1,13 +1,13 @@
 Summary:	Test and create .sfv, .csv and md5sum files
 Summary(pl):	Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
 Name:		cfv
-Version:	1.16
+Version:	1.17
 Release:	1
 License:	GPL
 Vendor:		Matt Mueller <donut@azstarnet.com>
 Group:		Applications/Archiving
 Source0:	http://dl.sourceforge.net/cfv/%{name}-%{version}.tar.gz
-# Source0-md5:	7842e0c2482eb2c59831ca67024a00a2
+# Source0-md5:	e8b627784acb613b4f49445973b3594d
 URL:		http://cfv.sourceforge.net/
 Requires:	python
 BuildArch:	noarch
