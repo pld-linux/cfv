@@ -1,13 +1,13 @@
 Summary:	Test and create .sfv, .csv and md5sum files
 Summary(pl):	Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
 Name:		cfv
-Version:	1.9
+Version:	1.12
 Release:	1
 License:	GPL
 Vendor:		Matt Mueller <donut@azstarnet.com>
 Group:		Applications/Archiving
-Source0:	http://www.azstarnet.com/~donut/programs/cfv/%{name}-%{version}.tar.gz
-URL:		http://www.azstarnet.com/~donut/programs/cfv/
+Source0:	http://prdownloads.sourceforge.net/cfv/cfv-1.12.tar.gz
+URL:		http://cfv.sourceforge.net/
 Requires:	python
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -32,13 +32,11 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install cfv	$RPM_BUILD_ROOT%{_bindir}
 install cfv.1	$RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf Changelog README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changelog README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man*/*
