@@ -6,8 +6,6 @@ Release:	1
 License:	GPL
 Vendor:		Matt Mueller <donut@azstarnet.com>
 Group:		Applications/Archiving
-Group(de):	Applikationen/Archivierung
-Group(pl):	Aplikacje/Archiwizacja
 Source0:	http://www.azstarnet.com/~donut/programs/cfv/%{name}-%{version}.tar.gz
 URL:		http://www.azstarnet.com/~donut/programs/cfv/
 Requires:	python
