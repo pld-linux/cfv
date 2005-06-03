@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/cfv/%{name}-%{version}.tar.gz
 # Source0-md5:	3d80ec46d799e5cb1e191047c5044ddd
 URL:		http://cfv.sourceforge.net/
 Requires:	python
+Requires:	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
