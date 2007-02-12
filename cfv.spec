@@ -1,5 +1,5 @@
 Summary:	Test and create .sfv, .csv and md5sum files
-Summary(pl.UTF-8):   Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
+Summary(pl.UTF-8):	Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
 Name:		cfv
 Version:	1.18.1
 Release:	1
