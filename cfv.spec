@@ -1,5 +1,5 @@
 Summary:	Test and create .sfv, .csv and md5sum files
-Summary(pl):	Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
+Summary(pl.UTF-8):   Testuje oraz tworzy pliki .sfv, .csv oraz md5sum
 Name:		cfv
 Version:	1.18.1
 Release:	1
@@ -19,10 +19,10 @@ cfv is a utility to both test and create .sfv, .csv and md5sum files.
 These files are commonly used to ensure the correct retrieval or
 storage of data.
 
-%description -l pl
-cfv to narzêdzie do testowania i tworzenia plików .sfv, .csv i md5sum.
-Te pliki s± czêsto u¿ywane w celu upewnienia siê o poprawnym przesyle
-danych poprzez sieæ.
+%description -l pl.UTF-8
+cfv to narzÄ™dzie do testowania i tworzenia plikÃ³w .sfv, .csv i md5sum.
+Te pliki sÄ… czÄ™sto uÅ¼ywane w celu upewnienia siÄ™ o poprawnym przesyle
+danych poprzez sieÄ‡.
 
 %prep
 %setup -q
