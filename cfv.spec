@@ -9,6 +9,7 @@ Group:		Applications/Archiving
 Source0:	http://dl.sourceforge.net/cfv/%{name}-%{version}.tar.gz
 # Source0-md5:	1be9039c2ab859103d70b6c4f4e5edf5
 URL:		http://cfv.sourceforge.net/
+BuildRequires:	rpm-pythonprov
 Requires:	python
 Requires:	python-modules
 BuildArch:	noarch
